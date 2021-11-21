@@ -6,7 +6,7 @@ from user_agent import generate_user_agent
 from time import sleep
 import random
 from telebot import types
-admin =[1008725111,1570278464,1163790887,1885302943,1216824080,2029773594]
+admin =[1008725111,1570278464,1163790887,1885302943,1216824080,1354777997]
 
 bot = telebot.TeleBot("1894082224:AAGVO-Ue75yRVKUaBPnPOXOxPwUQ-iL_Ff0")
 
