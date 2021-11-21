@@ -27,9 +27,9 @@ def kick(message):
 
 @bot.message_handler(func=lambda message: message.text =="بوت")
 def sttttt(message):
- bot.reply_to(message , text=f"انت اللي بوت 😒\nاسمي حمو 🙄")
+ bot.reply_to(message , text=f"انت اللي بوت 😒\nاسمي مطلوب 🙄")
 
-@bot.message_handler(func=lambda message: message.text =="حمو")
+@bot.message_handler(func=lambda message: message.text =="مطلوب")
 def sttttt(message):
  b00t =["موجود يا حب\n\n لو تريد تكلم مطوري اكتب     تواصل     يا عمري","◍ نعم حبيبى 🥺❤️","موجود عاوز اى 😒","شفلك كلبه❤️😂","نعسان محدش يصحينى🙄","شبيك لبيك❤️😂","مالك حبيبى🥺","اؤمرني شتريد؟❤️🥺"]
  rnm = random.choice(b00t)
@@ -40,8 +40,8 @@ def sttttt(message):
 @bot.message_handler(func=lambda message: message.text =="تواصل")
 def sstt(message):
  mas = types.InlineKeyboardMarkup(row_width=1)
- A = types.InlineKeyboardButton('مطور البوت 🤡', url='t.me/h_7am0')
- B = types.InlineKeyboardButton('كلمه هنا لو محظور', url='t.me/h_7am0BOT')
+ A = types.InlineKeyboardButton('مطور البوت 🤡', url='t.me/F_7_U')
+ B = types.InlineKeyboardButton('كلمه هنا لو محظور', url='t.me/MATLOBTOASELBOT')
  mas.add(A)
  mas.add(B)
  fg = bot.reply_to((message), '♡──┈┈┈┄┄╌╌╌╌┄┄┈┈┈❥\nاتواصل معاه من الأسفل يا حب\n♡──┈┈┈┄┄╌╌╌╌┄┄┈┈┈❥', reply_markup=mas)
@@ -50,8 +50,8 @@ def sstt(message):
 @bot.message_handler(commands=['start'])
 def start(message):
  mas = types.InlineKeyboardMarkup(row_width=1)
- D = types.InlineKeyboardButton('مطور البوت 🤖', url='t.me/h_7am0')
- F = types.InlineKeyboardButton('أضف البوت في مجموعتك 🤖', url='https://telegram.me/Z222BOT?startgroup=start')
+ D = types.InlineKeyboardButton('مطور البوت 🤖', url='t.me/F_7_U')
+ F = types.InlineKeyboardButton('أضف البوت في مجموعتك 🤖', url='https://telegram.me/MATLOBOT?startgroup=start')
  mas.add(D)
  mas.add(F)
  hamomo=[mas]
