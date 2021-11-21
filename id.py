@@ -11,7 +11,7 @@ admin =[1008725111,1570278464,1163790887,1885302943,1216824080,1354777997]
 bot = telebot.TeleBot("1894082224:AAGVO-Ue75yRVKUaBPnPOXOxPwUQ-iL_Ff0")
 
 
-@bot.message_handler(regexp="^طرد")
+@bot.message_handler(regexp="طرد")
 def kick(message):
  if message.from_user.id in admin:
   if message.reply_to_message:
