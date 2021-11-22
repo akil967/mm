@@ -8,7 +8,7 @@ import random
 from telebot import types
 admin =[1008725111,1570278464,1163790887,1885302943,1216824080,1354777997]
 
-bot = telebot.TeleBot("1894082224:AAGVO-Ue75yRVKUaBPnPOXOxPwUQ-iL_Ff0")
+bot = telebot.TeleBot("2100439248:AAE9_NycmydR-R-qjE5CHGuM2e6uPH4vAAM")
 
 
 @bot.message_handler(regexp="طرد")
@@ -51,7 +51,7 @@ def sstt(message):
 def start(message):
  mas = types.InlineKeyboardMarkup(row_width=1)
  D = types.InlineKeyboardButton('مطور البوت 🤖', url='t.me/F_7_U')
- F = types.InlineKeyboardButton('أضف البوت في مجموعتك 🤖', url='https://telegram.me/MATLOBOT?startgroup=start')
+ F = types.InlineKeyboardButton('أضف البوت في مجموعتك 🤖', url='https://telegram.me/idhamobot?startgroup=start')
  mas.add(D)
  mas.add(F)
  hamomo=[mas]
